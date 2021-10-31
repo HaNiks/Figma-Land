@@ -1,0 +1,275 @@
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+
+/* HEADER--------------------------------- */
+
+.header {
+    width: 1440px;
+    height: 652px;
+    background-image: url(../assets/ready-style/woman/yellow_dresses_with_brown_boots.jpg);
+    background-position: top -140px right 0px;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 1333px;
+    height: 128px;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.nav__container--logo {
+    width: 206px;
+    height: 78px;
+    padding: 7px 15px 8px 14px;
+    margin: 25px 27px 25px 0px;
+}
+
+.nav__logo {
+    width: 186px;
+    height: 58px;
+    background: url(../assets/logo/logo.png) no-repeat center;
+    background-size: contain;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 647px;
+    height: 48px;
+    margin: 39.5px 50px 40.5px 0px;
+}
+
+.nav__links--buttons {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    padding: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav__links--home {
+    width: 58px;
+    height: 28px;
+}
+
+.nav__links--shop {
+    width: 43px;
+    height: 28px;
+}
+
+.nav__links--account {
+    width: 71px;
+    height: 28px;
+}
+
+.nav__links--pages {
+    width: 52px;
+    height: 28px;
+}
+
+.nav__links--blog {
+    width: 39px;
+    height: 28px;
+}
+
+.nav__links--docs {
+    height: 28px;
+}
+
+.nav__my--account {
+    display: flex;
+    align-items: center;
+    height: 57px;
+}
+
+.nav__border {
+    width: 56px;
+    height: 56px;
+    background: rgba(232, 232, 232, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+
+.nav__icon--avatar {
+    width: 26px;
+    height: 29px;
+    margin: 12.5px 15.5px 14.5px 14.5px;
+    background: url(../assets/icon/Vector.png) no-repeat center;
+}
+
+.nav__text--my--account {
+    width: 105px;
+    height: 28px;
+    margin-top: 10px;
+    margin-left: 12px;
+    text-transform: capitalize;
+}
+
+.nav__icon--heart {
+    width: 32px;
+    height: 32px;
+    margin-right: 36px;
+    margin-left: 41px;
+    background: url(../assets/icon/carbon_favorite.png) no-repeat center;
+}
+
+.nav__icon--basket {
+    width: 23px;
+    height: 22px;
+    margin: 17px 17px 17px 16px;
+    background: url(../assets/icon/avatar.png) no-repeat center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 315px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.main__subtitle {
+    height: 36px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main__title {
+    height: 80px;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.main__text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20.5px;
+    line-height: 36px;
+    letter-spacing: 0.26px;
+    color: #FFFFFF;
+}
+
+.main__button {
+    width: 179px;
+    height: 56px;
+    margin-top: 31px;
+    padding: 16px 46px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+    background: #FFFFFF;
+    border: 0px;
+    color: #2091F9;
+}
+
+
+/* CATEGORY--------------------------------- */
+
+.category__img {
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+}
+
+.category__img--hat,
+.category__img--shoes,
+.category__img--bags,
+.category__img--clothes {
+    width: 370px;
+    height: 220px;
+}
+
+.category__img--dresses {
+    width: 310px;
+    height: 468px;
+}
+
+.category__img--container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 370px;
+    height: 468px;
+    margin: 49px 0px;
+}
+
+.category__img--container--dresses {
+    display: flex;
+    justify-content: center;
+    width: 370px;
+    height: 468px;
+    margin: 49px 0px;
+}
+
+.category__container--text--centred {
+    position: relative;
+}
+
+.category__img--centered--link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    transform: translate(-50%, -50%);
+    border: 1px solid #FFFFFF;
+    background: rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+}
+
+.category__img--centered--hat {
+    width: 95px;
+    height: 54px;
+}
+
+.category__img--centered--shoes {
+    width: 118px;
+    height: 54px;
+}
+
+.category__img--centered--dresses {
+    width: 138px;
+    height: 54px;
+}
+
+.category__img--centered--bags {
+    width: 108px;
+    height: 54px;
+}
+
+.category__img--centered--clothes {
+    width: 139px;
+    height: 54px;
+}
