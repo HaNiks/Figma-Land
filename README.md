@@ -1,2 +1,2 @@
 # Figma-Land
-https://haniks.github.io/Figma-Land_site/
+https://haniks.github.io/figmaland/
